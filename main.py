@@ -1,5 +1,5 @@
 # uw_oauth_demo.py
-import os, json, base64, hashlib, secrets, requests
+import os, secrets, requests
 from urllib.parse import urlencode
 from flask import Flask, redirect, request, session, render_template_string
 from dotenv import load_dotenv
@@ -84,3 +84,4 @@ def authorize():
 
 if __name__ == "__main__":
     app.run()
+
