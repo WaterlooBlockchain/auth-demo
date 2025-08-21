@@ -1,10 +1,10 @@
-# auth-demo
+# auth-demo 🔒
 
 This is a minimal Flask app that demonstrates how to authenticate with Microsoft Entra ID, then call the Microsoft Graph API (`/me`) to fetch a user’s profile.
 
 ---
 
-## Features
+## Features ⚙️
 
 - Redirects to Microsoft login (`/login`)
 - Handles the callback (`/authorize`)
@@ -13,7 +13,7 @@ This is a minimal Flask app that demonstrates how to authenticate with Microsoft
 
 ---
 
-## Prerequisites
+## Prerequisites ✏️
 
 - Python 3.10+
 - A registered App Registration in Azure Entra ID
